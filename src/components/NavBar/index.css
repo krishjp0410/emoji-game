@@ -1,0 +1,70 @@
+/* Write your code here. */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #9796f0;
+  height: 50px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    height: 60px;
+    padding-left: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-image {
+  height: 26px;
+  width: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-image {
+    height: 36px;
+    width: 36px;
+  }
+}
+
+.nav-bar-game-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-game-name {
+    font-size: 22px;
+  }
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+}
+
+.score-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-text {
+    font-size: 24px;
+  }
+}
